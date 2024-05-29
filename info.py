@@ -36,7 +36,7 @@ DATABASE_URI = "mongodb+srv://Hemanthss:Hemanthss@cluster0.mnhnelh.mongodb.net/?
 DATABASE_NAME = "Cluster0"
 COLLECTION_NAME = "Telegram_files"
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL', '-1002228458076')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002239013519')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", auth_channel)
